@@ -1,0 +1,47 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Perishables supply chain",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "populate": "node src/populate.js",
+    "test": "cross-env NODE_ENV=test jest ./tests"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "Supply",
+    "chain",
+    "Ethereum",
+    "Solidity",
+    "Node.js",
+    "Blockchain"
+  ],
+  "author": "Lorran Sutter",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcryptjs": "^2.4.3",
+    "bignumber.js": "^9.0.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ethereumjs-util": "^7.0.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "web3": "^1.2.9"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}

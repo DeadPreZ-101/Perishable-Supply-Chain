@@ -1,0 +1,129 @@
+@import url("../../global.css");
+
+.header_container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-bottom: 2em;
+}
+
+.header_container h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #49289e;
+}
+
+.header_container button {
+	background-color: #3399ff;
+	border: none;
+	border-radius: 10px;
+
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+
+	margin-left: 1em;
+	padding: 0 1em;
+	height: 40px;
+
+	transition: 0.3s;
+}
+
+.header_container button:hover {
+	transform: translate(0%, 5%) scale(1.05);
+	cursor: pointer;
+}
+
+.history_container {
+	justify-content: center;
+
+	padding: 0 0.5em 0.5em 0;
+
+	overflow: auto;
+	overflow-y: scroll;
+	height: 80vh;
+}
+
+.history_container::-webkit-scrollbar {
+	width: 0.3em;
+	height: 0.3em;
+}
+
+.history_container::-webkit-scrollbar-thumb {
+	background-color: #3399ff;
+}
+
+.history_container::-webkit-scrollbar-corner {
+	background-color: none;
+}
+
+.history_container .room_filter {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+.history_container .room_filter select {
+	background-color: #3399ff;
+	border: none;
+	border-radius: 10px;
+
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+
+	margin-right: 1em;
+	padding: 0 1em;
+	height: 40px;
+	width: 175px;
+}
+
+.history_container span {
+	float: right;
+	margin-left: auto;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.history_track {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.history_track th, td {
+	padding: 0.4em;
+	max-width: 500px;
+	text-align: left;
+
+    background-color: transparent;    
+    border-bottom: 1px solid;
+    border-color: rgba(25, 91, 235, 0.5);
+    outline: none;
+}
+
+.pagination_arrows {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.pagination_arrows button {
+	background-color: #3399ff;
+	border: none;
+	border-radius: 10px;
+
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+
+	margin: 0.3em 0 0 0.5em;
+	width: 60px;
+	height: 40px;
+
+	transition: 0.3s;
+}
+
+.pagination_arrows button:hover {
+	transform: translate(0%, 5%) scale(1.05);
+	cursor: pointer;
+}

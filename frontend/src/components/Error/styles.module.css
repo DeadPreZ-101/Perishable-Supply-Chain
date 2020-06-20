@@ -1,0 +1,63 @@
+@import url("../../global.css");
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	text-align: center;
+	color: #260e63;
+}
+
+.container * {
+	margin: 0.5em 0;
+}
+
+.container img {
+	width: 300px;
+	height: 300px;
+}
+
+.container button {
+	width: 250px;
+	height: 50px;
+
+	color: #1a1a1a;
+	background:  #3399ff;;
+	font-weight: bold;
+	font-size: 24px;
+	border-radius: 3px;
+	border: none;
+
+	transition: 0.3s;
+}
+
+.container button:hover {
+	transform: translate(0%, 5%) scale(1.05);
+	cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+	.container h1 {
+		font-size: x-large;
+    }
+    
+	.container img {
+		width: 200px;
+		height: 200px;
+    }
+    
+	.container button {
+		width: 200px;
+		height: 40px;
+
+		font-size: 18px;
+		border-radius: 10px;
+	}
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #e5e5e5;
+    font-family: Roboto;
+    -webkit-font-smoothing: antialized;
+}
