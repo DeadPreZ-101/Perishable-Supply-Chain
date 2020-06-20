@@ -84,7 +84,7 @@ Install backend dependencies:
 ## In the other terminal ##
 
 # Go to backend application
-cd backend
+cd Backend
 
 # Install dependencies
 npm install
