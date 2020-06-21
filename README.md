@@ -60,7 +60,7 @@ Frontend will run on http://localhost:3000/
 ## In the first terminal ##
 
 # Go to smart contract folder
-cd Smart Contract
+cd smart_contract
 
 # Init truffle
 truffle develop
@@ -84,7 +84,7 @@ Install backend dependencies:
 ## In the other terminal ##
 
 # Go to backend application
-cd Backend
+cd backend
 
 # Install dependencies
 npm install
@@ -112,7 +112,7 @@ Finally run the frontend application:
 ## In the third terminal ##
 
 # Go to frontend application
-cd Frontend
+cd frontend
 
 # Install dependencies
 npm install
@@ -132,13 +132,13 @@ Both Smart Contract and backend application have its own tests suite. To run the
 
 ```sh
 # Smart Contracts folder
-cd Smart Contract
+cd smart_contract
 
 # Run tests
 truffle test
 
 # Backend folder
-cd Backend
+cd backend
 
 # Run tests
 npm run test
