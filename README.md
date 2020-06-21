@@ -112,7 +112,7 @@ Finally run the frontend application:
 ## In the third terminal ##
 
 # Go to frontend application
-cd Backend
+cd Frontend
 
 # Install dependencies
 npm install
