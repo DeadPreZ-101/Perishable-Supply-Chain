@@ -23,7 +23,7 @@
   "author": "Lorran Sutter",
   "license": "MIT",
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "bcryptjs": "^2.4.3",
     "bignumber.js": "^9.0.0",
     "compression": "^1.7.4",
