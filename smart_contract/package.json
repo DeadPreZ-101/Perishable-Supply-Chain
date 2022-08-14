@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@openzeppelin/contracts": "^3.0.2",
+    "@openzeppelin/contracts": "^4.7.2",
     "@openzeppelin/test-helpers": "^0.5.6",
     "bignumber.js": "^9.0.0",
     "ethereumjs-util": "^7.0.2",
